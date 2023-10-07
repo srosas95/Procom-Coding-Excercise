@@ -7,11 +7,11 @@ There are 2 folders, functionality, and react-web-app. On the functionality fold
 
 How to run this app:
 
-0 These steps assume you've already set up Node in your computer, if you haven't check out https://nodejs.org/
-1 Open a terminal in your system.
-2 Go to the folder where you've cloned the project.
-3 Run 'npm run run-all', this step will install all dependecies on both folders and run them.
-3.1 If dependecies have already been installed we can run 'npm run exercise' to get the results.
+0 These steps assume you've already set up Node in your computer, if you haven't check out https://nodejs.org/ \
+1 Open a terminal in your system. \
+2 Go to the folder where you've cloned the project. \
+3 Run 'npm run run-all', this step will install all dependecies on both folders and run them. \
+3.1 If dependecies have already been installed we can run 'npm run exercise' to get the results. \
 
 Expected results:
 
