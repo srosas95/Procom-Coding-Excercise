@@ -1,0 +1,12 @@
+{
+  "name": "procom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-all": "cd functionality && npm start && cd .. && cd react-web-page && npm start "
+  },
+  "author": "Sebastian Rosas Rosas",
+  "license": "ISC"
+}

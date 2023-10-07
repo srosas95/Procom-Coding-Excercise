@@ -1,0 +1,37 @@
+/* Here is the css file for all the components of the person feature */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  background-color: #1369a7;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #7d7c7c;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #c5e3f8;
+}
+
+.table-person-header {
+  cursor: pointer;
+}
+
+.arrow-header {
+  margin-left: 5px;
+  max-width: 10px;
+  max-height: 10px;
+  fill: white;
+  stroke-width: 10px;
+}
