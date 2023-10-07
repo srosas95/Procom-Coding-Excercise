@@ -8,7 +8,9 @@ interface HeaderProps {
   sortConfig: { order: string; property: string };
   onClick: () => void;
 }
-
+/* I decided to create a component for the headers to handle the internal logic for rendering the icons, but depending on the requirements
+  we could keep all the code in the PersonsTable.tsx file
+*/
 const PersonTableHeader = ({ title, sortConfig, onClick }: HeaderProps) => {
   return (
     <th className="table-person-header" onClick={onClick}>

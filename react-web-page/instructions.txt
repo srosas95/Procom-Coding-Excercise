@@ -1,0 +1,5 @@
+Instructions: After completing the functionality as outlined, create a web page that will display a sortable table to the user of the content.
+
+https://gist.github.com/rrborg/5451127a7ae5cde6935b279ea509d2d8
+
+Use TypeScript to solve it.

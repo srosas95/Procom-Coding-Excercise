@@ -1,5 +1,5 @@
-// Placed the interface in its own file to have one source of truth and as it
-// was going to be called from multiple files
+// The interface has its own file to have one source of truth, since it
+// will be called from external files.
 
 interface IPerson {
   Name: string;

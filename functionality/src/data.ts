@@ -1,4 +1,4 @@
-//Placed the data in a file to avoid having one long file
+//Placed the data in a file to avoid having one long file.
 
 import { IPerson } from "./interface";
 

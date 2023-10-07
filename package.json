@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run-all": "cd functionality && npm start && cd .. && cd react-web-page && npm start "
+    "run-all": "cd functionality && npm install  && cd .. && cd react-web-page && npm install && cd .. && cd functionality && npm start && cd .. && cd react-web-page && npm start ",
+    "excercise": "cd functionality && npm start && cd .. && cd react-web-page && npm start"
   },
   "author": "Sebastian Rosas Rosas",
   "license": "ISC"

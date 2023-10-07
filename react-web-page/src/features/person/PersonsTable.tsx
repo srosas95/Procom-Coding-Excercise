@@ -31,9 +31,9 @@ const PersonsTable = (props: { data: IPerson[] }) => {
     console.log(p);
     setSortConfig((prev) => {
       let order: string = "";
-      // There are 3  available orders for sorting: ascending, descending and original(neutral), this can be found on the constants file
+      // There are 3  available orders for sorting: ascending, descending and original(neutral), this can be found on the constants file.
 
-      //The prev state is compared to see if we are cycling to the orders of one of the headers or if a new header has been selected to be the new sorting order
+      //The prev state is compared to see if we are cycling through the orders of the same header or if a new header has been selected to determine the new sorting order.
       if (prev.property === p) {
         if (sortConfig.order === constants.neutral) order = constants.asc;
         else if (sortConfig.order === constants.asc) order = constants.desc;
@@ -47,12 +47,11 @@ const PersonsTable = (props: { data: IPerson[] }) => {
 
   return (
     <div>
-      {/* Title of the company I'm exited to join :) */}
       <table>
         <thead>
           <tr>
             {/* Depending on how the data is handled, I prefer to keep a HEADERS constant at the top of any Table component
-                and loop through it to crate the <th>, this way we can quickly see what the component is displaying and can be
+                and loop through it to create the <th>. This way we can quickly see what the component is displaying and can be
                 easily modified. Due to the short amount of data I kept it in this rudimentary way.
             */}
 
@@ -76,8 +75,8 @@ const PersonsTable = (props: { data: IPerson[] }) => {
 
         <tbody>
           {sortedData.map((person, index) => (
-            //In a real world scenario, data would come from a DB with unique id,
-            //which we should use for the key values, here I used name and index as a substitute
+            //In a real world scenario, data would come from a DB with an unique id,
+            //which we should use for the key values, here I used name and index as a substitute.
             <tr key={`${index}_${person.Name}`}>
               <td>{person.Name}</td>
               <td>{person["Favorite Food"]}</td>
